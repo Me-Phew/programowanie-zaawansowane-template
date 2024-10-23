@@ -27,10 +27,10 @@ var NAVTREE =
   [ "Project Name", "index.html", [
     [ "README", "md_README.html", [
       [ "Programowanie zaawansowane - szablon", "md_README.html#autotoc_md0", [
-        [ "Spis treści", "md_README.html#autotoc_md1", [
-          [ "🚀 Użycie", "md_README.html#autotoc_md2", null ],
-          [ "🧩 Funkcjonalność", "md_README.html#autotoc_md3", null ],
-          [ "⚖️ Licencja", "md_README.html#autotoc_md4", null ]
+        [ "Spis treci", "md_README.html#autotoc_md1", [
+          [ "Uycie", "md_README.html#autotoc_md2", null ],
+          [ "Funkcjonalno", "md_README.html#autotoc_md3", null ],
+          [ "Licencja", "md_README.html#autotoc_md4", null ]
         ] ]
       ] ]
     ] ],
