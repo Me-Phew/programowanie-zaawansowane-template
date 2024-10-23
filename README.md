@@ -10,12 +10,14 @@
 
 ### <a name="usage">🚀 Użycie</a>
 
-- Po utworzeniu repozytorium wyszukaj wszystkie wystąpienia poniższych tekstów i zamień je na nazwę swojego projektu.
-  - `ProjectName`
-  - `Project Name`
-
-- Aby umożliwić poprawne wyświetlanie odznak, wyszukaj wszystkie wystąpienia poniższych tekstów i zamień je na ścieżkę własnego repozytorium.
-  - `Me-Phew/programowanie-zaawansowane-template`
+- Po utworzeniu repozytorium wyszukaj wszystkie wystąpienia poniższych tekstów i zamień je na właściwe dla swojego projektu.
+  - Nazwa projektu
+    - `ProjectName`
+    - `Project Name`
+  - Autor
+    - `AuthorName`
+  - Ścieżka do repozytorium (w linku GitHub)
+    - `Me-Phew/programowanie-zaawansowane-template`
 
 ### <a name="features">🧩 Funkcjonalność</a>
 
