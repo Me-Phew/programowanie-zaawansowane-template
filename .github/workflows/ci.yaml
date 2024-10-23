@@ -51,6 +51,15 @@ jobs:
             cp ./build/linux-release/$PROJECT_NAME ./$PROJECT_NAME-${{ steps.tag_version.outputs.new_tag }}-linux-x64
             cp ./build/windows-release/$PROJECT_NAME.exe ./$PROJECT_NAME-${{ steps.tag_version.outputs.new_tag }}-win-x64.exe
 
+      - name: Install Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Remove Unicode characters from the readme
+        run: |
+          python remove_unicode.py README.md
+
       - name: Set version number in Doxyfile
         run: echo "PROJECT_NUMBER         = \"${{ steps.tag_version.outputs.new_tag }}\"" >> Doxyfile
 
