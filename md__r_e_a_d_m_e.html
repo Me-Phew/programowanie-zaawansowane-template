@@ -7,7 +7,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=11" />
   <meta name="generator" content="Doxygen 1.12.0" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Doubly Linked List: Algorytm listy dwukierunkowej</title>
+  <title>Project Name: README</title>
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
   <link href="tabs.css" rel="stylesheet" type="text/css" />
   <script type="text/javascript" src="jquery.js"></script>
   <script type="text/javascript" src="dynsections.js"></script>
@@ -49,8 +50,9 @@
         <table cellspacing="0" cellpadding="0">
           <tbody>
             <tr id="projectrow">
+              <td id="projectlogo"><img alt="Logo" src="favicon.svg"  /></td>
               <td id="projectalign">
-                <div id="projectname">Doubly Linked List
+                <div id="projectname">Project Name
                 </div>
               </td>
             </tr>
@@ -119,10 +121,89 @@ $(function(){initNavTree('md__r_e_a_d_m_e.html',''); initResizable(true); });
 </div>
 
 <div><div class="header">
-  <div class="headertitle"><div class="title">Algorytm listy dwukierunkowej</div></div>
+  <div class="headertitle"><div class="title">README</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p><a class="anchor" id="autotoc_md0"></a></p>
+<div class="textblock"><p><img src="https://img.shields.io/github/actions/workflow/status/Me-Phew/programowanie-zaawansowane-template/ci.yaml?logo=bilibili&amp;style=for-the-badge" alt="GitHub Workflow Status" class="inline"/> <img src="https://img.shields.io/github/deployments/Me-Phew/programowanie-zaawansowane-template/github-pages?label=Doxygen%20Documentaion&amp;logo=bilibili&amp;style=for-the-badge" alt="GitHub deployments" class="inline"/> <img src="https://img.shields.io/github/last-commit/Me-Phew/programowanie-zaawansowane-template?color=8bd5ca&amp;logo=starship&amp;style=for-the-badge" alt="GitHub last commit" class="inline"/> <img src="https://img.shields.io/github/repo-size/Me-Phew/programowanie-zaawansowane-template?logo=github&amp;style=for-the-badge" alt="GitHub repo size" class="inline"/></p>
+<h1><a class="anchor" id="autotoc_md0"></a>
+Programowanie zaawansowane - szablon</h1>
+<h2><a class="anchor" id="autotoc_md1"></a>
+Spis treści</h2>
+<ul>
+<li>🚀 Użycie</li>
+<li>🧩 Funkcjonalność</li>
+<li>⚖️ Licencja</li>
+</ul>
+<h3><a class="anchor" id="autotoc_md2"></a>
+<a class="anchor" id="usage"></a>🚀 Użycie</h3>
+<ul>
+<li>Po utworzeniu repozytorium wyszukaj wszystkie wystąpienia poniższych tekstów i zamień je na właściwe dla swojego projektu.<ul>
+<li>Nazwa projektu<ul>
+<li><code>ProjectName</code></li>
+<li><code>Project Name</code></li>
+</ul>
+</li>
+<li>Autor<ul>
+<li><code>AuthorName</code></li>
+</ul>
+</li>
+<li>Ścieżka do repozytorium (w linku GitHub)<ul>
+<li><code>Me-Phew/programowanie-zaawansowane-template</code></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3><a class="anchor" id="autotoc_md3"></a>
+<a class="anchor" id="features"></a>🧩 Funkcjonalność</h3>
+<ul>
+<li>Generator systemu budowania - <a href="https://cmake.org/">CMake</a><ul>
+<li>Konfiguracja dla <a href="https://gcc.gnu.org/">GCC</a> (<a href="https://www.mingw-w64.org/">MINGW-w64</a>) z <a href="https://www.msys2.org/">MSYS2</a></li>
+<li>System budowania - <a href="https://ninja-build.org/">Ninja</a><ul>
+<li>Kompilacja dla systemu Linux (<a href="https://gcc.gnu.org/">GCC</a>)</li>
+<li>Kompilacja dla systemu Windows (<a href="https://www.mingw-w64.org/">MINGW-w64</a>)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Dokumentacja<ul>
+<li>Szablon LaTeX - dostosowany przez mgr inż. Dawid Kotlarski</li>
+<li>Automatyczna - narzędzie <a href="https://www.doxygen.nl/">Doxygen</a><ul>
+<li>Konfiguracja motywu strony - <a href="https://github.com/jothepro/doxygen-awesome-css">Doxygen Awesome</a></li>
+<li>Kolory motywu inspirowane stroną <a href="https://nuxt.com/">Nuxt</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Git Hooks - <a href="https://github.com/evilmartians/lefthook">Lefthook</a><ul>
+<li>Budowanie projektu</li>
+<li>Generowanie dokumentacji automatycznej</li>
+<li>Walidacja zgodności wiadomośći commitów z konwencją <a href="https://www.conventionalcommits.org/en/v1.0.0/">Conventional Commits</a> przy pomocy narzędzia <a href="https://commitlint.js.org/">Commitlint</a></li>
+</ul>
+</li>
+<li>Continous Integration - <a href="https://docs.github.com/en/actions">GitHub Actions</a><ul>
+<li>Walidacja zgodności wiadomośći commitów z konwencją <a href="https://www.conventionalcommits.org/en/v1.0.0/">Conventional Commits</a> przy pomocy narzędzia <a href="https://commitlint.js.org/">Commitlint</a></li>
+<li>Generowanie strony dokumentacji automatycznej (<a href="https://pages.github.com/">GitHub Pages</a>)</li>
+<li>Tworzenie tagów wersji</li>
+<li>Tworzenie wydań zawierających:<ul>
+<li>Wygenerowane pliki wykonywalne dla platform:<ul>
+<li>Windows</li>
+<li>Linux</li>
+</ul>
+</li>
+<li>Pliki dokumentacji:<ul>
+<li>Automatyczna (<a href="https://www.doxygen.nl/">Doxygen</a>)</li>
+<li>LaTeX - szablon dostosowany przez mgr inż. Dawid Kotlarski</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3><a class="anchor" id="autotoc_md4"></a>
+<a class="anchor" id="license"></a>⚖️ Licencja</h3>
+<p><a href="./LICENSE">GNU GENERAL PUBLIC LICENSE v.3.0</a> </p>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
