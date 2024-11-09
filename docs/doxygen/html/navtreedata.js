@@ -24,8 +24,16 @@
 */
 var NAVTREE =
 [
-  [ "Doubly Linked List", "index.html", [
-    [ "Algorytm listy dwukierunkowej", "md__r_e_a_d_m_e.html", null ],
+  [ "Project Name", "index.html", [
+    [ "README", "md__r_e_a_d_m_e.html", [
+      [ "Programowanie zaawansowane - szablon", "md__r_e_a_d_m_e.html#autotoc_md0", [
+        [ "Spis treści", "md__r_e_a_d_m_e.html#autotoc_md1", [
+          [ "🚀 Użycie", "md__r_e_a_d_m_e.html#autotoc_md2", null ],
+          [ "🧩 Funkcjonalność", "md__r_e_a_d_m_e.html#autotoc_md3", null ],
+          [ "⚖️ Licencja", "md__r_e_a_d_m_e.html#autotoc_md4", null ]
+        ] ]
+      ] ]
+    ] ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ]
