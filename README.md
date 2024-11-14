@@ -10,7 +10,9 @@
 
 ### <a name="usage">🚀 Użycie</a>
 
-- Po utworzeniu repozytorium wyszukaj wszystkie wystąpienia poniższych tekstów i zamień je na właściwe dla swojego projektu.
+Użyj polecenia `npm i`, aby umożliwić działanie Git Hooks
+
+- Wyszukaj wszystkie wystąpienia poniższych tekstów i zamień je na właściwe dla swojego projektu.
   - Nazwa projektu
     - `ProjectName`
     - `Project Name`
