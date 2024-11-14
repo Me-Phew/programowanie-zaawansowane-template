@@ -10,7 +10,9 @@
 
 ### <a name="usage">🚀 Użycie</a>
 
-- Po utworzeniu repozytorium wyszukaj wszystkie wystąpienia poniższych tekstów i zamień je na właściwe dla swojego projektu.
+Użyj polecenia `npm i`, aby umożliwić działanie Git Hooks
+
+- Wyszukaj wszystkie wystąpienia poniższych tekstów i zamień je na właściwe dla swojego projektu.
   - Nazwa projektu
     - `ProjectName`
     - `Project Name`
@@ -33,7 +35,6 @@
     - Kolory motywu inspirowane stroną [Nuxt](https://nuxt.com/)
 - Git Hooks - [Lefthook](https://github.com/evilmartians/lefthook)
   - Budowanie projektu
-  - Generowanie dokumentacji automatycznej
   - Walidacja zgodności wiadomośći commitów z konwencją [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) przy pomocy narzędzia [Commitlint](https://commitlint.js.org/)
 - Continous Integration - [GitHub Actions](https://docs.github.com/en/actions)
   - Walidacja zgodności wiadomośći commitów z konwencją [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) przy pomocy narzędzia [Commitlint](https://commitlint.js.org/)
